@@ -1,0 +1,53 @@
+@charset "utf-8";
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html, body {
+    background-color: #dfdbe3;
+	font-family: "Nunito", sans-serif;
+	color:black;
+}
+/*Estilo del menu de navegación */
+.header{
+	background: #40384F;
+	color: black;
+	display: flex;
+	justify-content: space-between;
+	height: 5.5em;
+	align-items: center;
+}
+.logo img{
+	width: 15em;
+}
+.header ul{
+	list-style:none;
+	margin: 0;
+	padding:0;
+	display: flex;
+	height: inherit;
+}
+.header a{
+	text-decoration: none;
+	color: aliceblue;
+	height: inherit;
+	align-items: center;
+	display: flex;
+	padding: 0em 0.5em;
+}
+.menu{
+	height: inherit;
+}
+.header li{
+	height:inherit;
+}
+/* Codigo del apartado de productos*/
+a{
+	color: var(--primary-color);
+	text-decoration: none;
+}
+a:hover{
+	color: var(--primary-color-dark);
+	text-decoration: none;
+}
