@@ -1,0 +1,95 @@
+	body {
+	background-color: #2d282d;
+	font-family: "Nunito", sans-serif;
+}
+body div {
+}
+.cotenedor li{
+		height: inherit;
+	}
+ul{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	display: flex;
+	height: inherit;
+	align-items: center;
+}
+.contenedor a{
+		color: black;
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+	padding: 0px 10px;
+}
+.contenedor{
+	display: flex;
+	justify-content: center;
+	height: 90px;
+	font-family: "Nunito", sans-serif;
+}
+.menu{	
+	height: inherit
+}
+	.contenedor-boton{
+		width: 100%;
+		height: 40px;
+		border-radius: 24px;
+		border: none;
+		font-size: 120%;
+		cursor: pointer;
+		background-color: aliceblue;
+	}
+	.separacion-boton{
+		margin: 10px;
+}
+.inicio img{
+	padding-top: 2vh;
+}
+/*
+.padre{
+background:white;
+display:flex;
+flex-wrap:nowrap;
+flex-direction:row;
+justify-content: space-between;
+height:45vh;
+align-items: center;
+
+}
+.hijo{
+background:none;
+width: 50vw;
+height:inherit;
+border:2px solid yellowgreen;
+font-size:30px;
+margin:10px;
+display:flex;
+flex-direction:column;
+justify-content: center;
+align-items: center;
+}
+*/
+.about-us{
+ height: 40vh;
+ background: #dfdbe3;
+ display: flex;
+}
+.aplicar-detalles{
+    width: 50%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:0em 1em;
+    text-align: center;
+}
+.aplicar-detalles img{
+height:90%;
+}
+.aplicar-detalles h2{
+	color: #8079FF;
+	font-weight:900;
+	font-size: 2.5rem;
+}
