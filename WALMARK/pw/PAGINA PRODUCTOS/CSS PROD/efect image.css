@@ -1,9 +1,0 @@
-@charset "utf-8";
-.product-box img{
-	filter: contrast(1);
-	filter: grayscale(100%);
-}
-.product-box:hover img{
-	filter:contrast(1.2);
-	filter: grayscale(0%);
-}
